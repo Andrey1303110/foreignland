@@ -1,0 +1,49 @@
+.head_div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.head_block {
+    min-height: 150px;
+    min-width: 200px;
+    padding: 20px;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background: rebeccapurple;
+    border: 5px solid rgb(255, 255, 255);
+    cursor: pointer;
+    
+    &:nth-child(1) {
+        width: 50%;
+    }
+    &:nth-child(2) {
+        width: 50%;
+    }
+    &:nth-child(3) {
+        width: 30%;
+    }
+    &:nth-child(4) {
+        width: 40%;
+    }
+    &:nth-child(5) {
+        width: 30%;
+    }
+    &:nth-child(6) {
+        width: 50%;
+    }
+    &:nth-child(7) {
+        width: 50%;
+    }
+}
