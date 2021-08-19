@@ -8,11 +8,10 @@
     height: 100vh;
 }
 
-
 .head_block {
     min-height: 150px;
     min-width: 200px;
-    padding: 20px;
+    padding: 5px;
     font-size: 2em;
     text-align: center;
     text-transform: uppercase;
@@ -23,54 +22,89 @@
     align-items: center;
     border: 5px solid rgb(255, 255, 255);
     cursor: pointer;
-    
     &:nth-child(1) {
         width: 50%;
-        background-image: url(../img/events.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 50% 0%;
+        .block_name .for_bg {
+            background-image: url(../img/events.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% 0%;
+        }
     }
     &:nth-child(2) {
         width: 50%;
-        background-image: url(../img/news.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+        .block_name .for_bg {
+            background-image: url(../img/news.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
     }
     &:nth-child(3) {
         width: 30%;
-        background-image: url(../img/staff1.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 0%;
+        .block_name .for_bg {
+            background-image: url(../img/staff1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 0%;
+        }
     }
     &:nth-child(4) {
         width: 40%;
-        background-image: url(../img/name.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+        .block_name .for_bg {
+            background-image: url(../img/name.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
     }
     &:nth-child(5) {
         width: 30%;
-        background-image: url(../img/contacts.jpg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
+        .block_name .for_bg {
+            background-image: url(../img/contacts.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
     }
     &:nth-child(6) {
         width: 50%;
-        background-image: url(../img/experience.jpg);
-        background-size: 75%;
-        background-repeat: no-repeat;
-        background-position: center;
+        .block_name .for_bg {
+            background-image: url(../img/experience.jpg);
+            background-size: 75%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
     }
     &:nth-child(7) {
         width: 50%;
-        background-image: url(../img/documents.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 50% top;
+        .block_name .for_bg {
+            background-image: url(../img/documents.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% top;
+        }
+    }
+}
+
+.block_name {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    .for_bg {
+        width: 100%;
+        height: 100%;
+        filter: grayscale(.7) opacity(0.5);
+        transition: all .35s ease-in-out;
+        &:hover {
+            filter: grayscale(0) opacity(1);
+        }
+    }
+    p {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
