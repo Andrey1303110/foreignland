@@ -21,29 +21,56 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    background: rebeccapurple;
     border: 5px solid rgb(255, 255, 255);
     cursor: pointer;
     
     &:nth-child(1) {
         width: 50%;
+        background-image: url(../img/events.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
     }
     &:nth-child(2) {
         width: 50%;
+        background-image: url(../img/news.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     &:nth-child(3) {
         width: 30%;
+        background-image: url(../img/staff1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0%;
     }
     &:nth-child(4) {
         width: 40%;
+        background-image: url(../img/name.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     &:nth-child(5) {
         width: 30%;
+        background-image: url(../img/contacts.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     &:nth-child(6) {
         width: 50%;
+        background-image: url(../img/experience.jpg);
+        background-size: 75%;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     &:nth-child(7) {
         width: 50%;
+        background-image: url(../img/documents.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% top;
     }
 }

@@ -108,35 +108,62 @@ select {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: rebeccapurple;
   border: 5px solid white;
   cursor: pointer;
 }
 
 .head_block:nth-child(1) {
   width: 50%;
+  background-image: url(../img/events.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
 }
 
 .head_block:nth-child(2) {
   width: 50%;
+  background-image: url(../img/news.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .head_block:nth-child(3) {
   width: 30%;
+  background-image: url(../img/staff1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0%;
 }
 
 .head_block:nth-child(4) {
   width: 40%;
+  background-image: url(../img/name.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .head_block:nth-child(5) {
   width: 30%;
+  background-image: url(../img/contacts.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .head_block:nth-child(6) {
   width: 50%;
+  background-image: url(../img/experience.jpg);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .head_block:nth-child(7) {
   width: 50%;
+  background-image: url(../img/documents.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% top;
 }
