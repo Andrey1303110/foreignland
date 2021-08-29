@@ -61,8 +61,10 @@
   margin: 1.5em;
 }
 
-.slick-dots li {
-  margin: 0 50px;
+.slick-dots {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 
