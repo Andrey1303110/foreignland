@@ -351,14 +351,34 @@ select {
   width: 30%;
   text-decoration: none;
   color: black;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 30%;
+  -webkit-transition: .35s ease-in-out;
+  transition: .35s ease-in-out;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#experince a:hover {
+  background-size: 38%;
+  -webkit-filter: none;
+          filter: none;
+  color: black;
+}
+
+#experince a.docx {
+  background-image: url(/img/docx.svg);
+}
+
+#experince a.adobe {
+  background-image: url(/img/adobe.svg);
 }
 
 #experince a p {
   text-align: center;
   padding: 0 10%;
   font-size: 1.3em;
-}
-
-#experince a img {
-  margin: 0 auto;
 }

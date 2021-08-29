@@ -10,13 +10,28 @@
         width: 30%;
         text-decoration: none;
         color: black;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: 30%;
+        transition: .35s ease-in-out;
+        filter: grayscale(1);
+        color: rgba(0, 0, 0, 0.6);
+        &:hover {
+            background-size: 38%; 
+            filter: none;
+            color: black;
+        }
+        &.docx {
+            background-image: url(/img/docx.svg);
+        }
+        &.adobe {
+            background-image: url(/img/adobe.svg);
+        }
         p {
             text-align: center;
             padding: 0 10%;
             font-size: 1.3em;
-        }
-        img {
-            margin: 0 auto;
         }
     }
 }
