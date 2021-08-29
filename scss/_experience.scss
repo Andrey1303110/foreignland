@@ -1,0 +1,22 @@
+#experince {
+    width: 100%;
+    min-height: 500px;
+    height: 20em;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    a {
+        width: 30%;
+        text-decoration: none;
+        color: black;
+        p {
+            text-align: center;
+            padding: 0 10%;
+        }
+        img {
+            margin: 0 auto;
+        }
+    }
+}
